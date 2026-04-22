@@ -15,7 +15,7 @@ class Palco(models.Model):
 
 class Dia(models.Model):
     data = models.DateField()
-
+    
     def __str__(self):
         return str(self.data)
 
